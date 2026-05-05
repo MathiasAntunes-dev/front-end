@@ -1,0 +1,24 @@
+html, body{
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.3 rem;
+    background-color: whitesmoke;
+}
+
+#cameraFeed{
+    width: 680;
+    height: 480;
+    border-radius: 10px;
+}
+
+#captureButton{
+    width: 640;
+    height: 480;
+    font-size: 1.3rem;
+    font-weight: bold; 
+    border-radius: 20px;
+}
+
+canvas{
+    border-radius: 10px;
+}

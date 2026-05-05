@@ -9,6 +9,7 @@ console.log(letras);
 const letrasGregas = new Set(["alfa", "beta", "gama"]);
 
 console.log(letrasGregas);
-
-console.log(letrasGregas.has("épdilon"));
-console.log(letrasGregas.has("alfa"));
+console.log(letrasGregas.has("épsilon"));
+letrasGregas.add("épsilon");
+console.log(letrasGregas.has("épsilon"));
+console.log(letrasGregas);
